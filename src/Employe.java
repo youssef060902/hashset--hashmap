@@ -7,7 +7,8 @@ public class Employe implements Comparable<Employe> {
     private String nomDepartement;
     private int grade;
 
-
+    // Constructeur sans paramètre
+    public Employe() {}
 
     // Constructeur avec paramètres
     public Employe(int id, String nom, String prenom, String nomDepartement, int grade) {
