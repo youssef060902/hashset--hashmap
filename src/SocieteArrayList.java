@@ -6,7 +6,7 @@ import java.util.List;
 public class SocieteArrayList implements IGestion<Employe> {
     private List<Employe> employes = new ArrayList<>();
 
-    // Ajouter un employé
+
     @Override
     public void ajouterEmploye(Employe e) {
         employes.add(e);
